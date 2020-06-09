@@ -124,9 +124,9 @@ ul {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
 .auth-nav {
   display: flex;
@@ -136,17 +136,17 @@ ul {
 }
 
 .adress-icon {
-  fill: var(--primary-text-color);
+  fill: currentColor;
   margin-right: 10px;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) color 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-icon:hover,
 .adress-icon:focus {
   fill: var(--accent-color);
 }
+
 .auth-nav .item + .item {
   margin-left: 30px;
 }
@@ -159,8 +159,7 @@ ul {
   letter-spacing: 0.02em;
   font-family: Roboto;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) color 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav .link:hover,
@@ -425,7 +424,7 @@ ul {
 
   border-radius: 4px;
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
